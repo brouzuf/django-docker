@@ -6,7 +6,7 @@ RUN ln /usr/bin/python3 /usr/bin/python
 RUN apt-get -y install python3-pip
 RUN ln /usr/bin/pip3 /usr/bin/pip
 RUN pip install --upgrade pip
-RUN pip install django ptvsd
+RUN pip install django
 ENV PYTHONUNBUFFERED 1
 RUN mkdir /code/
 WORKDIR /code/

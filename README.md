@@ -17,7 +17,7 @@ Pre-requisites:
 
 ## Step 2: Create python environment:
 
-virtualenv env
+`virtualenv env`
 
 ## Step 3: Activate an environment:
 For Linux/Mac -

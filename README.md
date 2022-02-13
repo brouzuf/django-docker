@@ -15,11 +15,11 @@ Pre-requisites:
 
 // mkdir project_docker && cd project_docker
 
-# Step 2: Create python environment:
+## Step 2: Create python environment:
 
 virtualenv env
 
-# Step 3: Activate an environment:
+# Step 3: Activate an environment: #
 For Linux/Mac -
 
 source env/bin/activate

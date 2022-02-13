@@ -48,7 +48,7 @@ Freeze the requirements.txt file:
 
 For this step you need to have both docker and docker compose installed on your server or local computer.
 
-`docker-compose up --build'
-'sudo docker-compose up'
-'sudo docker-compose up -d '(To run the containers in background)
-'sudo docker-compose down '(To terminate the containers)`
+`docker-compose up --build`
+`sudo docker-compose up`
+`sudo docker-compose up -d `(To run the containers in background)
+`sudo docker-compose down `(To terminate the containers)

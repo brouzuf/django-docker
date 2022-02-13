@@ -13,7 +13,7 @@ Pre-requisites:
 
 ## Step 1: Create an empty project directory:
 
-// mkdir project_docker && cd project_docker
+`mkdir project_docker && cd project_docker`
 
 ## Step 2: Create python environment:
 
@@ -22,23 +22,23 @@ Pre-requisites:
 ## Step 3: Activate an environment:
 For Linux/Mac -
 
-source env/bin/activate
+`source env/bin/activate`
 
 For Windows -
 
-.\bin\Scripts\activate
+`.\bin\Scripts\activate`
 
 ## Step 4: Copy the Dockerfile in your project directory.
 
 ## Step 5: Install django and psycopg2-binary library using pip:
 
-pip3 install django
+`pip3 install django`
 
-pip3 install psycopg2-binary
+`pip3 install psycopg2-binary`
 
 Freeze the requirements.txt file:
 
-pip3 freeze > requirements.txt
+`pip3 freeze > requirements.txt`
 
 ## Step 6: Copy the file docker-compose.yml and add following content.
 
@@ -48,7 +48,7 @@ pip3 freeze > requirements.txt
 
 For this step you need to have both docker and docker compose installed on your server or local computer.
 
-docker-compose up --build
+`docker-compose up --build
 sudo docker-compose up
 sudo docker-compose up -d (To run the containers in background)
-sudo docker-compose down (To terminate the containers)
+sudo docker-compose down (To terminate the containers)`

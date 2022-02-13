@@ -13,7 +13,7 @@ Pre-requisites:
 
 # Step 1: Create an empty project directory:
 
-[code] mkdir project_docker && cd project_docker [/code]
+// mkdir project_docker && cd project_docker
 
 # Step 2: Create python environment:
 
